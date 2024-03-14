@@ -1,0 +1,108 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-darker {
+    background-color: #121212;
+}
+
+.img-max {
+    max-width: 250px;
+    min-width: 250px;
+
+    width: 100%;
+}
+
+.landing-btn {
+    min-width: 150px;
+}
+
+/* ====================================== PROJECTS CARD CSS */
+
+.card-size {
+    max-width: 350px;
+    min-width: 250px;
+    max-height: 350px;
+    min-height: 295px;
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-size {
+    max-width: 350px;
+    max-height: 150px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+/* ====================================== TOOLS CARD CSS */
+
+.tools-card {
+    height: 130px;
+    width: 130px;
+    transition: transform .2s;
+
+}
+
+.tools-card-img {
+    height: 41px;
+    width: 41px;
+}
+
+.tools-card:hover {
+    transform: scale(1.1);
+}
+
+
+
+.transition-all {
+    transition: all 0.5s ease-out;
+}
+
+#typewriterCursor {
+    border-right: 0.15em solid #0d6efd;
+    animation: blink 1s infinite;
+
+}
+
+.contact {
+    max-width: 512px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 720px) {
+    #dev-title {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .tools-row {
+        max-width: 720px;
+    }
+
+
+}
